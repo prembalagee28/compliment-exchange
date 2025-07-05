@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Compliment Exchange 🌸</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <button class="mode-toggle" onclick="toggleMode()">🌙 / ☀️</button>
+    <h1>🌸 Virtual Compliment Exchange 🌸</h1>
+
+    <textarea id="complimentInput" placeholder="Write a kind compliment..." rows="4"></textarea>
+    <button onclick="sendCompliment()">Send Compliment</button>
+
+    <h2>🌈 Compliments You’ve Received:</h2>
+    <ul id="complimentList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
